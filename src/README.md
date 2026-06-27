@@ -6,6 +6,30 @@ A super simple FastAPI application that allows students to view and sign up for 
 
 - View all available extracurricular activities
 - Sign up for activities
+- Unregister participants from activities
+
+## Running Tests
+
+Backend tests are organized in the `tests/` directory and follow the AAA (Arrange-Act-Assert) pattern.
+
+1. Install dependencies:
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+2. Run the full test suite:
+
+   ```
+   pytest -v
+   ```
+
+3. Run specific test files:
+
+   ```
+   pytest tests/test_signup.py -v
+   pytest tests/test_unregister.py -v
+   ```
 
 ## Getting Started
 
